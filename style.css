@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Rahmen um Spielfeld + Sidebar, so hoch wie das Fenster (minus Rahmen) */
+#gameContainer {
+    display: flex;
+    width: fit-content;
+    height: calc(100vh - 20px);
+    margin: auto;
+    border: 10px groove goldenrod;
+}
+
+/* Beide Canvas so hoch wie der Container, Breite passt sich an */
+canvas {
+    height: 100%;
+}
+
+#background {
+    background-color: #6B8E23;
+}
+
+#sidebar {
+    background-color: #8B4513;
+    border-left: 10px groove goldenrod;
+}
